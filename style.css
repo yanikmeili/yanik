@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:ital,wght@0,100;1,400&family=Playfair+Display:wght@600&family=Raleway:wght@100;200&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+body {
+  background-image: url("images/spsp.png");
+  font-family: 'Raleway', sans-serif;
+  background-color: #d2d1d0;
+  font-size: 20px;
+  line-height:1,6;
+}
+
+@keyframes pulsate {
+  100% {
+    /* Larger blur radius */
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  }
+  0% {
+    /* Smaller blur radius */
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #0fa,
+      0 0 45px #0fa,
+      0 0 55px #0fa,
+      0 0 70px #0fa,
+      0 0 80px #0fa;
+  }
+}
+
+h1 {
+  color: #215129;
+  font-family: 'Monoton', cursive;
+  font-size: 30px;
+  line-height:1,8;
+}
+
+h2 {
+  animation: pulsate 1s infinite alternate;
+  color:#215129;
+  font-family: 'Monoton', cursive;
+  font-size: 26px;
+  line-height:1,8;
+}
+
+.btn-prim{
+  color: white;
+  background-color: #3d5e43;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.btn-prim:hover {
+  transition: width 2s;
+  background-color: red;
+
+}
+
+.fab {
+  color: white;
+  background-color: #3d5e43;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.fab:hover {
+  transition: width 2s;
+  background-color: #215129;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+}
+
+
+
+
+
+.first {
+  border: 6px solid black;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 20px 20px 30px rgba(0,0,0,.1);
+  padding: 30px;
+  text-align: center;
+  margin: 20px 350px;
+}
+.second {
+  border: 6px solid black;
+  border-radius: 20px;
+  background: #b0b0b0;
+  box-shadow: 20px 20px 30px rgba(0,0,0,.1);
+  padding: 5px;
+  text-align: center;
+  margin: 20px 600px;
+}
+
+img {
+  width: 150px;
+  margin: auto;
+  border: 3px solid black;
+  padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .first {
+    font-size: 30px;
+    line-height:1,8;
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .first {
+
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .first {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .second {
+    font-size: 30px;
+    line-height:1,8;
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .second {
+
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .second {
+    width: 300px;
+  }
+}
+
+
+
+
+
